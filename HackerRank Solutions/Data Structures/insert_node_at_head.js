@@ -26,6 +26,8 @@ function insertNodeAtHead(head, data){
 		head = tempNode
 		return tempNode
 	} else {
+		// if head is not null
+		// the next of the tempNode we created is set to the head passed
 		tempNode.next = head
 		return tempNode
 
