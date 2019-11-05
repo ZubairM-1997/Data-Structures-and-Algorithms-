@@ -79,7 +79,7 @@ class BinarySearchTree{
 			while(current && !found){
 				// if it is less
 				//check to see if there is a node to the left
-				if (value < current.vale){
+				if (value < current.value){
 					// if there is, move to that node and repeat these steps
 					current = current.left;
 
